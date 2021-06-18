@@ -1,0 +1,107 @@
+html, body {
+  font-size: 16px;
+}
+
+body {
+  background: #3a3434;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000, #3a3434);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #3a3434);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+form {
+  margin: 0 auto;
+  width: 340px;
+}
+
+input[type=text] {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 4px #000000a1;
+}
+
+input[type=text]::placeholder {
+  color: rgba(211, 211, 211, 0.555);
+  font-size: 14.5px;
+}
+
+input[type=submit] {
+  font-family: "Pangolin", cursive;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.field {
+  display: flex;
+}
+
+.field-checkboxes {
+  margin-top: 0.5rem;
+}
+
+.field-checkbox {
+  display: flex;
+  margin-bottom: 1.2rem;
+  color: #440f15;
+  font-size: 15px;
+}
+.field-checkbox p {
+  margin: 0;
+  font-family: "Pangolin", cursive;
+  margin-left: 0.2rem;
+}
+
+.field-submit {
+  text-align: right;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background-color: #6e3737;
+  width: 375px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  color: #CC99FF;
+  border-radius: 18px;
+  box-shadow: 0px 1px 3px #683374ad;
+}
+
+.form-title {
+  font-family: "Pangolin", cursive;
+  font-size: 26px;
+  text-align: center;
+  background-color: #e7b6e3c0;
+  padding: 0.75rem 1.75rem;
+  margin: -1.5rem;
+  margin-bottom: 1.5rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+label {
+  display: flex;
+  font-family: "Pangolin", cursive;
+  margin-bottom: 1.2rem;
+  color: black;
+  font-size: 18px;
+}
+
+.text-title {
+  display: flex;
+  margin-bottom: 1rem;
+  font-family: "Pangolin", cursive;
+  color: #8ed3d1;
+  font-size: 20px;
+}
